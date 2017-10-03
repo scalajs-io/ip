@@ -8,7 +8,7 @@ IP address utilities for node.js
 
 ### Build Dependencies
 
-* [SBT v0.13.13](http://www.scala-sbt.org/download.html)
+* [SBT v0.13.16](http://www.scala-sbt.org/download.html)
 
 ### Build/publish the SDK locally
 
@@ -80,7 +80,7 @@ IP.cidrSubnet("192.168.1.134/26").contains("192.168.1.190") // true
 To add the `IP` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "ip" % "0.4.0"
+libraryDependencies += "io.scalajs.npm" %%% "ip" % "0.4.1"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
